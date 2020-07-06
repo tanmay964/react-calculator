@@ -29,7 +29,7 @@ class KeyComponent extends Component {
 
                 <button name="." onClick={e => this.props.onClick(e.target.name)}>.</button>
                 <button name="0" onClick={e => this.props.onClick(e.target.name)}>0</button>
-                <button name="=" onClick={e => this.props.onClick(e.target.name)}>=</button>
+                <button className = "equal" name="=" onClick={e => this.props.onClick(e.target.name)}>=</button>
                 <button className = "division" name="/" onClick={e => this.props.onClick(e.target.name)}>÷</button><br/>
             </div>
          );
